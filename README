@@ -11,6 +11,7 @@ Development Packages of:
 	libgnutls or openssl
 	libplist
 	libusbmuxd
+	python
 
 Software:
 	usbmuxd
@@ -30,7 +31,7 @@ Installation
 ============
 
 To compile run:
-	./configure
+        ./autogen.sh
 	make
 	sudo make install
 
